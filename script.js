@@ -57,10 +57,10 @@ memeForm.addEventListener('submit', (event) => {
   }
 
   ctx.fillText(topText, canvas.width / 2, 50);
-  ctx.fillText(bottomText, canvas.width / 2, canvas.height - 48);
+  ctx.fillText(bottomText, canvas.width / 2, canvas.height - 24);
 
   ctx.strokeText(topText, canvas.width / 2, 50);
-  ctx.strokeText(bottomText, canvas.width / 2, canvas.height - 48);
+  ctx.strokeText(bottomText, canvas.width / 2, canvas.height - 24);
 
 
   genButton.disabled = true;
